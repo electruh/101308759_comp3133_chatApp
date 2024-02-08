@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css"
+      integrity="sha256-mmgLkCYLUQbXn0B1SRqzHar6dCnv9oZFPEC1g1cwlkk="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <style>
+        /* CSS for aligning buttons horizontally */
+      .flex {
+        display: flex;
+        justify-content: center; /* Adjust as needed */
+        align-items: center;
+        gap: 10px; /* Adjust spacing between buttons */
+      }
+    </style>
+    <title>Chat Application</title>
+  </head>
+  <body>
+    <div class="join-container">
+      <header class="join-header">
+        <h1> Dashboard </h1>
+      </header>
+
+      <main class="join-main">
+        <form action="chat.html">
+            <input id="userinput"
+              type="text"
+              name="username"
+              id="username"
+              placeholder="Enter username"
+              required
+            />
+
+          <div class="form-control">
+            <select name="room" id="room">
+              <option value="News">News </option>
+              <option value="Covid-19">Covid19</option>
+              <option value="nodeJS">nodeJS</option>
+              <option value="Sports">sem6</option>
+              <option value="Other">etc</option>
+            </select>
+          </div>
+          <div class="flex">
+            <button type="submit" class="btn">Join chat room</button>
+            <a href="login.html" class="btn">Logout</a>
+          </div>
+        </form>
+
+        <!-- Inside the chat-form-container -->
+
+      </main>
+    </div>
+  </body>
+</html>
