@@ -8,7 +8,7 @@
     "node": "^19.6.0",
     "socket.io": "^4.5.4"
   },
-  "name": "101344680_lab_test1_chat_app",
+  "name": "101308759_lab_test1_chat_app",
   "description": "Chat Application - COMP 3133 Lab Test 1",
   "version": "1.0.0",
   "main": "index.js",
